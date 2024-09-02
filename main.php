@@ -150,7 +150,8 @@
 
                         <div>
                             <a href="./clare/clare.php" class="mem-pop-up"> Clare's pfp</a> 
-                        </div>
+                            <div>haha try </div>
+                            </div>
                         
                         <div>
                             <a href="./jergi/jergi.php" class="mem-pop-up"> Jergi's pfp</a> 
