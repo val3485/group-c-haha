@@ -99,11 +99,13 @@
                 background-color: #E2B791;
             }
             .menu-popup{
-                background-color: aqua;
+                background-color:#D78846 ;
+                box-shadow: 10px 10px #733e12;
                 display: none;
                 position: absolute;
                 padding: 50px;
-                right: 30px;             
+                right: 30px;
+                border-radius: 30px;             
             }
             #btn{
                 background-color: transparent ;
@@ -123,9 +125,41 @@
             .navbar #h:hover,#btn:hover{
                 font-size: 25px;
             }
-            .pop-up-con, #title-pop-up, .mem-pop-up{
+            .pop-up-con, #title-pop-up,.whole-mem-pop-up,.mem-pop-up{
                 text-decoration: none;
+                color: #FFFFFF ;
+                
             }
+            .mem-pop-up:hover,.pop-up-con:hover{
+                text-shadow: 1px 1px #733e12;
+            }
+            #line{
+                border: 2px  solid #FFFFFF;
+            }
+            .pop-up-con , #history-pop-up, .mem-pop-up{
+                font-family: "Lexend Peta";
+                text-align: center;
+            }
+            #title-pop-up{
+                font-family: "Major Mono Display";
+                font-weight: 900;
+                font-size: 20px;
+            }
+            .btn-cancel{
+                border: none;
+                border-radius: 30px/50px;
+                margin-left: 32%;
+                margin-top: 10%;
+                font-family: "Lexend Peta";
+                background-color: transparent;
+                transition: 0.2s;
+                color: #FFFFFF;
+            }.btn-cancel:hover{
+                font-size: 15px;
+                text-shadow: 2px 2px #733e12;
+            }
+
+
     
         </style>
     </head>
@@ -137,33 +171,39 @@
         <div style="font-family: Lexend Peta ;font-weight: 200 ; font-size: 30px; background-color: #faddb7; color: #733e12;"> Pick one to open :> </div><br><br>
 
         <div class="navbar">
-            <a href="./history/history.php" class="nav" id="h"> history</a> 
+            <a href="./history/history.php" class="nav" id="h"> history</a>
 
             <button class="open-button" onclick="openForm()" id="btn">menu</button>
 
                 <div class="menu-popup" id="my-form">
 
                     <form class="menu-con"> 
-                        <a href="./history/history.php" class="pop-up-con"> Our history</a> <br>
-
+                        <div  class="pop-up-con">
+                            <a href="./history/history.php" class="pop-up-con" id="history-pop-up"> Our history</a> <br><br>
+                        </div>
+                        
+                        <hr id="line"><br>
+                        
                         <div id="title-pop-up"> Members:</div> <br>
 
-                        <div>
-                            <a href="./clare/clare.php" class="mem-pop-up"> Clare's pfp</a> 
-                            <div>haha try </div>
+                        <div class="whole-mem-pop-up" >
+                            <div>
+                                <a href="./clare/clare.php" class="mem-pop-up" > Clare's pfp</a> 
+                                </div>
+                            
+                            <div>
+                                <a href="./jergi/jergi.php" class="mem-pop-up" > Jergi's pfp</a> 
                             </div>
+
+                            <div>
+                                <a href="./miles/dport.php" class="mem-pop-up"  >Mile's pfp</a> 
+                            </div> 
+
+                            <div>
+                                <a href="./joaquin/RamosINFO.php" class="mem-pop-up" > Joaquin's pfp</a> 
+                            </div>
+                        </div>
                         
-                        <div>
-                            <a href="./jergi/jergi.php" class="mem-pop-up"> Jergi's pfp</a> 
-                        </div>
-
-                        <div>
-                            <a href="./miles/dport.php" class="mem-pop-up">Mile's pfp</a> 
-                        </div> 
-
-                        <div>
-                            <a href="./joaquin/RamosINFO.php" class="mem-pop-up"> Joaquin's pfp</a> 
-                        </div>
                        
                     </form>
 
