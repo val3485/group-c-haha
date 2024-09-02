@@ -150,6 +150,7 @@
 
                         <div>
                             <a href="./clare/clare.php" class="mem-pop-up"> Clare's pfp</a> 
+                            <p>salve - test</p>
                         </div>
                         
                         <div>
