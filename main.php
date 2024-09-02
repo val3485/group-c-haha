@@ -149,9 +149,9 @@
                         <div id="title-pop-up"> Members:</div> <br>
 
                         <div>
-                            <a href="./clare/clare.php" class="mem-pop-up"> Clare's pfp</a> 
-                            <div>haha try </div>
-                            </div>
+                          <a href="./clare/clare.php" class="mem-pop-up"> Clare's pfp</a>                  
+                        </div>
+
                         
                         <div>
                             <a href="./jergi/jergi.php" class="mem-pop-up"> Jergi's pfp</a> 
